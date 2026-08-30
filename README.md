@@ -1,4 +1,4 @@
-# E-Commerce Customer Segmentation \& Sales Analysis
+# E-Commerce Customer Segmentation & Sales Analysis
 
 An end-to-end e-commerce data analytics project using **Python, MySQL, and Power BI** to analyze sales performance, customer behavior, revenue trends, and RFM-based customer segmentation.
 
@@ -38,10 +38,10 @@ The objective is to use data analytics to identify customer segments, understand
 * Build an interactive two-page Power BI dashboard.
 * Generate business insights and recommendations.
 
-## 🛠️ Tools \& Technologies
+## 🛠️ Tools & Technologies
 
-|Tool / Technology|Purpose|
-|-|-|
+|Tool/Technology        |Purpose                               |
+|-----------------------|--------------------------------------|
 |Python|Data cleaning, analysis, RFM analysis and visualization|
 |Pandas|Data manipulation and aggregation|
 |Matplotlib|Data visualization|
@@ -55,26 +55,23 @@ The objective is to use data analytics to identify customer segments, understand
 ```text
 Ecommerce-Customer-Segmentation/
 │
-
 ├── Documentation/
-│   └── E-commerce\_sales\_data
-
-│   └── E-commerce\_sales\_cleaned
-
-│   └── RFM\_analysis
+│   └── E-commerce_sales_data
+│   └── E-commerce_sales_cleaned
+│   └── RFM_analysis
+|
 ├── SQL/
-│   └── Ecommerce\_Customer\_Segmentation\_Analysis.sql
+│   └── Ecommerce_Customer_Segmentation_Analysis.sql
 │
 ├── Python/
-│   └── Ecommerce\_Customer\_Segmentation\_Analysis.ipynb
+│   └── Ecommerce_Customer_Segmentation_Analysis.ipynb
 │
 ├── Power BI/
-│   └── Ecommerce\_Customer\_Segmentation\_Analysis.pbix
+│   └── Ecommerce_Customer_Segmentation_Analysis.pbix
 │
 ├── Documentation/
-│   └── Ecommerce\_Customer\_Segmentation\_Project\_Documentation.docx
-
-│   └── Ecommerce\_Customer\_Segmentation\_Project\_Documentation.pdf
+│   └── Ecommerce_Customer_Segmentation_Project_Documentation.docx
+│   └── Ecommerce_Customer_Segmentation_Project_Documentation.pdf
 │
 └── README.md
 ```
@@ -85,8 +82,8 @@ The cleaned dataset used in the project contains **48,294 rows and 12 columns**.
 
 ### Main Columns
 
-|Column|Description|
-|-|-|
+|Column            |Description          |
+|------------------|---------------------|
 |`InvoiceNo`|Invoice / transaction number|
 |`StockCode`|Product code|
 |`Description`|Product description|
@@ -105,11 +102,11 @@ The cleaned dataset used in the project contains **48,294 rows and 12 columns**.
 ```text
 Raw E-Commerce Data
         ↓
-Data Cleaning \& Preparation
+Data Cleaning & Preparation
         ↓
 Python Exploratory Data Analysis
         ↓
-MySQL Data Loading \& SQL Analysis
+MySQL Data Loading & SQL Analysis
         ↓
 RFM Analysis
         ↓
@@ -117,7 +114,7 @@ Customer Segmentation
         ↓
 Power BI Dashboard
         ↓
-Business Insights \& Recommendations
+Business Insights & Recommendations
 ```
 
 # 🐍 Python Analysis
@@ -163,7 +160,7 @@ The final RFM scores were generated in Python using quintile-based `pd.qcut()` l
 # 🎯 Customer Segmentation
 
 |Segment|Rule|
-|-|-|
+|-------|---------------------|
 |Champions|R ≥ 4, F ≥ 4, M ≥ 4|
 |Loyal Customers|R ≥ 3, F ≥ 4|
 |Big Spenders|R ≥ 4, M ≥ 4|
@@ -174,7 +171,7 @@ The final RFM scores were generated in Python using quintile-based `pd.qcut()` l
 # 💰 RFM Revenue Results
 
 |Segment|Revenue|
-|-|-:|
+|---------------|-----------------|
 |Champions|₹4,798,458.66|
 |Potential Loyalists|₹1,471,930.76|
 |Loyal Customers|₹1,287,287.53|
@@ -187,7 +184,7 @@ The final RFM scores were generated in Python using quintile-based `pd.qcut()` l
 # 👤 Customer Distribution
 
 |Segment|Customers|
-|-|-:|
+|---------|-------------|
 |Potential Loyalists|685|
 |Lost Customers|609|
 |Champions|581|
@@ -211,7 +208,7 @@ The August 2026 decline should be investigated using order volume, customer acti
 
 The final Power BI report contains **two interactive pages**.
 
-## Page 1 — Sales \& Product Analysis
+## Page 1 — Sales & Product Analysis
 
 Includes:
 
@@ -222,7 +219,7 @@ Includes:
 * Customer analysis
 * Interactive slicers
 
-## Page 2 — Customer \& RFM Analysis
+## Page 2 — Customer & RFM Analysis
 
 Includes:
 
@@ -297,5 +294,5 @@ The final two-page Power BI dashboard provides an interactive view of business p
 * Power BI
 * Dashboard Development
 * Business Intelligence
-* Business Insights \& Recommendations
+* Business Insights & Recommendations
 
