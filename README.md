@@ -53,23 +53,23 @@ The objective is to use data analytics to identify customer segments, understand
 ## 📂 Repository Structure
 
 ```text
-Ecommerce-Customer-Segmentation/
+Ecommerce-Customer-Segmentation
 │
-├── Documentation/
+├── Documentation
 │   └── E-commerce_sales_data
 │   └── E-commerce_sales_cleaned
 │   └── RFM_analysis
 |
-├── SQL/
+├── SQL
 │   └── Ecommerce_Customer_Segmentation_Analysis.sql
 │
-├── Python/
+├── Python
 │   └── Ecommerce_Customer_Segmentation_Analysis.ipynb
 │
-├── Power BI/
+├── Power BI
 │   └── Ecommerce_Customer_Segmentation_Analysis.pbix
 │
-├── Documentation/
+├── Documentation
 │   └── Ecommerce_Customer_Segmentation_Project_Documentation.docx
 │   └── Ecommerce_Customer_Segmentation_Project_Documentation.pdf
 │
