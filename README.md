@@ -55,7 +55,7 @@ The objective is to use data analytics to identify customer segments, understand
 ```text
 Ecommerce-Customer-Segmentation:
 │
-├── Documentation:
+├── Data:
 │   └── E-commerce_sales_data
 │   └── E-commerce_sales_cleaned
 │   └── RFM_analysis
