@@ -296,3 +296,13 @@ The final two-page Power BI dashboard provides an interactive view of business p
 * Business Intelligence
 * Business Insights & Recommendations
 
+## 📊 Power BI Dashboard
+
+### Page 1 — Sales & Product Analysis
+
+![E-Commerce Sales Dashboard](Dashboard1_p2.png)
+
+### Page 2 — Customer & RFM Analysis
+
+![Customer & RFM Analysis Dashboard](Dashboard2_p2.png)
+
