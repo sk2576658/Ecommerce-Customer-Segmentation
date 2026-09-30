@@ -305,5 +305,5 @@ The final two-page Power BI dashboard provides an interactive view of business p
 
 ### Page 2 — Customer & RFM Analysis
 
-![Customer & RFM Analysis Dashboard](Page%202%20Dashboard2_p2.png)
+![Customer & RFM Analysis Dashboard](Page%202%20Dashboard2_p2.png) 
 
